@@ -6,18 +6,18 @@ Announcements
 🌟 Data for Q3(July, August, September) and Q4(Octobar, November, December) of 2024 has been added and is available for consumption.
 
 Table of Contents
-PhonePe Pulse - Data
-Announcements
-Table of Contents
-Goal
-Guide
-Documentation
-Folder Structure
-JSON Structure / Syntax
-Aggregated
-data/aggregated/transaction/country/india/2018/1.json
-data/aggregated/user/country/india/2021/1.json
-data/aggregated/insurance/country/india/2021/1.json
+ PhonePe Pulse - Data
+  Announcements
+   Table of Contents
+           Goal
+           Guide
+           Documentation
+           Folder Structure
+             JSON Structure / Syntax
+              Aggregated
+                        data/aggregated/transaction/country/india/2018/1.json
+                        data/aggregated/user/country/india/2021/1.json
+                        data/aggregated/insurance/country/india/2021/1.json
 Map
 data/map/transaction/hover/country/india/2021/1.json
 data/map/user/hover/country/india/2021/1.json
