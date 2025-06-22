@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import plotly.express as plotly
 import psycopg2
 from sqlalchemy import create_engine
 
@@ -123,7 +123,7 @@ st.subheader("6. 🗺️ India-Wide Transaction Heatmap by State")
 df_map_statewise = query_map()
 geojson_url = "https://gist.githubusercontent.com/jbrobst/56c13bbbf9d97d187fea01ca62ea5112/raw/e388c4cae20aa53cb5090210a42ebb9b765c0a36/india_states.geojson"
 
-fig = px.choropleth(
+fig = plotly.choropleth(
     df_map_statewise,
     geojson=geojson_url,
     featureidkey="properties.ST_NM",
