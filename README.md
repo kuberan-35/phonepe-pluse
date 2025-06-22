@@ -63,7 +63,6 @@ data
                 |    2.json
                 |    3.json
                 |    4.json
-
                 |___ 2019
                 |    ...
                 |___ 2019
@@ -74,7 +73,6 @@ data
                         |   2.json
                         |   3.json
                         |   4.json
-
                     |___ andhra-pradesh
                     |    ...
                     |    ...
@@ -86,7 +84,6 @@ Transaction data broken down by type of payment at country level.
 For complete details on syntax find the comments in below code
 
 NOTE: Similar syntax is followed for state level too. Ex: data/aggregated/transaction/country/india/state/delhi/2018/1.json
-
 {
     "success": true, //Ignore. For internal use only
     "code": "SUCCESS", //Ignore. For internal use only
@@ -104,11 +101,8 @@ NOTE: Similar syntax is followed for state level too. Ex: data/aggregated/transa
                     }
                 ]
             },
-
             ...,
-
             ...,
-
             {
                 "name": "Others",
                 "paymentInstruments": [
@@ -144,11 +138,8 @@ NOTE: Similar syntax is followed for state level too. Ex: data/aggregated/user/c
                 "count": 71553154, //Number of registered users by this brand.
                 "percentage": 0.2510765339828075 //Percentage of share of current device type compared to all devices.
             },
-
             ...,
-
             ...,
-
             {
                 "brand": "Others", //All unrecognized device types grouped here.
                 "count": 23564639, //Number of registered users by all unrecognized device types.
@@ -209,12 +200,9 @@ NOTE: Similar syntax is followed for district level too. Ex: data/map/transactio
                     }
                 ]
             },
-
             ...,
-
-            ...,
-
-            {
+           ...,
+           {
                 "name": "tamil nadu",
                 "metric": [
                     {
@@ -244,11 +232,8 @@ NOTE: Similar syntax is followed for district level too. Ex: data/map/user/hover
                 "registeredUsers": 346279, //Total number of registered users for the selected state/district
                 "appOpens": 7914507 //Total number of app opens by the registered users for the selected state/district
             },
-
+           ...,
             ...,
-
-            ...,
-
             "tamil nadu": {
                 "registeredUsers": 16632608,
                 "appOpens": 348801714
@@ -279,12 +264,9 @@ NOTE: Similar syntax is followed for district level too. Ex: data/map/insurance/
                     }
                 ]
             },
-
             ...,
-
             ...,
-
-            {
+          {
                 "name": "tamil nadu",
                 "metric": [
                     {
@@ -319,7 +301,6 @@ NOTE: Similar syntax is followed for state level too. The only exception is, it 
                     "amount": 7.549953574123948E11 //Total value of all transactions
                 }
             },
-
             ...,
         ],
         "districts": [ //List of districts where most number of transactions happened along with total value for a selected year-quarter combination.
@@ -331,8 +312,7 @@ NOTE: Similar syntax is followed for state level too. The only exception is, it 
                     "amount": 4.324013412317671E11 //Total value of all transactions
                 }
             },
-
-            ...,
+           ...,
         ],
         "pincodes": [ //List of pin codes where most number of transactions happened along with total value for a selected year-quarter combination.
             {
@@ -343,8 +323,7 @@ NOTE: Similar syntax is followed for state level too. The only exception is, it 
                     "amount": 1.5427512629157785E11 //Total value of all transactions
                 }
             },
-
-            ...,
+           ...,
         ]
     },
     "responseTimestamp": 1630346629360 //Ignore. For internal use only.
@@ -365,7 +344,6 @@ NOTE: Similar syntax is followed for state level too. The only exception is, it 
                 "name": "maharashtra", //State name
                 "registeredUsers": 37077537 //Number of registered users
             },
-
             ...,
         ],
         "districts": [ //List of districts where the most number of users registered from, for a selected year-quarter combination.
@@ -373,7 +351,6 @@ NOTE: Similar syntax is followed for state level too. The only exception is, it 
                 "name": "bengaluru urban", //State name
                 "registeredUsers": 9955387 //Number of registered users
             },
-
             ...,
         ],
         "pincodes": [ //List of pin codes where most number of users registered from, for a selected year-quarter combination.
@@ -381,7 +358,6 @@ NOTE: Similar syntax is followed for state level too. The only exception is, it 
                 "name": "201301", //Pin code
                 "registeredUsers": 541127 //Number of registered users
             },
-
             ...,
         ]
     },
@@ -407,7 +383,6 @@ NOTE: Similar syntax is followed for state level too. The only exception is, it 
                     "amount": 7.549953574123948E11 //Total value of all insurance
                 }
             },
-
             ...,
         ],
         "districts": [ //List of districts where most number of insurance happened along with total value for a selected year-quarter combination.
@@ -419,8 +394,7 @@ NOTE: Similar syntax is followed for state level too. The only exception is, it 
                     "amount": 4.324013412317671E11 //Total value of all insurance
                 }
             },
-
-            ...,
+           ...,
         ],
         "pincodes": [ //List of pin codes where most number of insurance happened along with total value for a selected year-quarter combination.
             {
@@ -431,7 +405,6 @@ NOTE: Similar syntax is followed for state level too. The only exception is, it 
                     "amount": 1.5427512629157785E11 //Total value of all insurance
                 }
             },
-
             ...,
         ]
     },
