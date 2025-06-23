@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as plotly
 import psycopg2
-from sqlalchemy import create_engine
-
 # ------------------------ DATABASE CONNECTION ------------------------ #
 def get_engine():
      return psycopg2.connect(
