@@ -8,7 +8,6 @@ def get_engine():
         host="localhost", database="project phonepe", user="postgres", password="63693103k@"
     )
 engine = get_engine()
-
 # ------------------------ PAGE SETUP ------------------------ #
 st.set_page_config(page_title="📱 PhonePe Data Insights", layout="wide")
 st.title("📊 PhonePe Data Insights Dashboard")
