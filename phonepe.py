@@ -7,8 +7,7 @@ engine = psycopg2.connect(
         dbname="project phonepe",
         user="postgres",
         password="63693103k@",
-        host="localhost",
-        port="5432"
+        host="localhost"
     )
 # ------------------------ PAGE SETUP ------------------------ #
 st.set_page_config(page_title="📱 PhonePe Data Insights", layout="wide")
