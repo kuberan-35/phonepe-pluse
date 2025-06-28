@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 # ------------------------ DATABASE CONNECTION ------------------------ #
 def get_engine(): 
  return  create_engine("postgresql+psycopg2://postgres:63693103k@@localhost:5432/project phonepe")
- engine = get_engine()       
+engine = get_engine()       
 # ------------------------ PAGE SETUP ------------------------ #
 st.set_page_config(page_title="📱 PhonePe Data Insights", layout="wide")
 st.title("📊 PhonePe Data Insights Dashboard")
